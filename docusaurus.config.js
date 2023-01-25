@@ -32,7 +32,7 @@ const config = {
       'classic',
       ({
         docs: {
-          routeBasePath: '/',
+          routeBasePath: '/v1,1',
           sidebarPath: require.resolve("./sidebars.js"),
           showLastUpdateTime: true,
           editUrl: "https://github.com/harvester/docs/edit/main/",

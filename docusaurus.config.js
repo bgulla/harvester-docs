@@ -9,7 +9,7 @@ const config = {
   title: "Harvester",
   tagline: "The open source hyperconverged infrastructure (HCI) solution for a cloud native world",
   url: "https://docs.harvesterhci.io",
-  baseUrl: "/v1.1",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",

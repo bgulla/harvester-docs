@@ -9,7 +9,7 @@ const config = {
   title: "Harvester",
   tagline: "The open source hyperconverged infrastructure (HCI) solution for a cloud native world",
   url: "https://docs.harvesterhci.io",
-  baseUrl: "/",
+  baseUrl: "/v1.1",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -32,7 +32,7 @@ const config = {
       'classic',
       ({
         docs: {
-          routeBasePath: '/v1.1',
+          routeBasePath: '/',
           sidebarPath: require.resolve("./sidebars.js"),
           showLastUpdateTime: true,
           editUrl: "https://github.com/harvester/docs/edit/main/",
